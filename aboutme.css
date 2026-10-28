@@ -1,0 +1,76 @@
+body{
+    width:100%;
+    height: 100%;
+    background-color: #080707;
+background-image: radial-gradient(rgba(100, 116, 139, 0.1) 2px, transparent 2px), radial-gradient(rgba(100, 116, 139, 0.1) 2px, transparent 2px);
+background-size: 20px 20px;
+background-position: 0 0, 10px 10px;
+    overflow: hidden;
+}
+h1{
+    color: white;
+    font-family: "handjet";
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.proj{
+    display: flex;
+    gap: 50px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.software{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    background: #c3bfbf28;
+
+}
+.hardware{
+    border: 2px solid rgba(0, 0, 0, 0.112);
+    padding: 40px;
+    border-radius: 10px;
+    background: #c3bfbf30;
+}
+.software:hover{
+    border: 2px solid black;
+    padding: 45px;
+    border-radius: 10px;
+    transition-duration: 400ms;
+    background: #c3bfbf28;
+    rotate: 10deg;
+}
+.hardware:hover{
+       border: 2px solid black;
+     
+    padding: 45px;
+    border-radius: 10px;
+    transition-duration: 400ms;
+    background: #c3bfbf28;
+    rotate: 10deg;
+}
+.one{
+color: rgb(243, 243, 240);
+font-size: 48px;
+}
+.two{
+    color: rgb(230, 230, 219);
+    font-size: 48px;
+}
+.one:hover{
+color: yellow;
+transition-duration: 400ms;
+font-size: 60px;
+}
+.two:hover{
+    color: yellow;
+    transition-duration: 400ms;
+    font-size: 60px;
+}
+
